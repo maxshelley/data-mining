@@ -1,0 +1,18 @@
+// Global scss file, everything gets imported here
+// so you can comment, include and customise more easily.
+
+@import "mixins.scss";
+@import "variables.scss";
+
+@import "normalize.scss"; // HTML5 Boilerplate Normalize (Used in original hack)
+
+
+@import "atare-containers.scss";
+@import "atare-global.scss";
+@import "atare-infographic.scss";
+@import "atare-buttons.scss";
+@import "atare-header.scss";
+@import "atare-footer.scss";
+@import "atare-home.scss";
+@import "atare-impact.scss";
+@import "atare-main.scss"; // Original import from hack.

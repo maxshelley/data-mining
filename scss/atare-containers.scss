@@ -1,0 +1,44 @@
+.container {
+
+  @include clearfix();
+
+  @media only screen and (max-width:$m-Max){
+
+      width: 93.33333332%;
+      margin-right: auto;
+      margin-left: auto;
+      float: none;
+
+  }
+
+  // s-Prefix Grid
+  @media only screen and (min-width:$s-Min) and (max-width:$s-Max) {
+
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      float: none;
+    
+  }
+
+  // t-Prefix Grid
+  @media only screen and (min-width:$t-Min) and (max-width:$t-Max) {
+
+      width: 92.18750002%;
+      margin-right: auto;
+      margin-left: auto;
+      float: none;
+
+  }
+
+  // db-Prefix Grid
+  @media only screen and (min-width:$db-Min) {
+    
+      width: 90.858585859%;
+      margin-right: auto;
+      margin-left: auto;
+      float: none;
+      max-width: 1170px;
+    
+  }
+}
