@@ -13,4 +13,58 @@
 
   }
 
+  .year-instructions {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.1em;
+    font-style: italic;
+  }
+
+}
+
+.generated-infographic {
+  display: none;
+  text-align: center;
+  background-image: url(../images/infographic-bg.png);
+  height: 717px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item-totals {
+
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: left;
+
+  .total-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1em;
+  }
+
+  .item {
+    margin-bottom: 40px;
+  }
+
+}
+
+.feedback-form {
+
+  //display: none;
+
+  section,label {
+    display: inline-block;
+    width: 100%;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+
 }
