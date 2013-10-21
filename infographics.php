@@ -1,12 +1,26 @@
 <?php include('head.php'); ?>
 <?php include('header.php'); ?>
 
+<div id="year1999" data-amount="724400000000"></div>
+<div id="year2000" data-amount="1591700000000"></div>
+<div id="year2001" data-amount="1707600000000"></div>
+<div id="year2002" data-amount="1230900000000"></div>
+<div id="year2003" data-amount="2074300000000"></div>
+<div id="year2004" data-amount="3354800000000"></div>
+<div id="year2005" data-amount="4762400000000"></div>
+<div id="year2006" data-amount="5287600000000"></div>
+<div id="year2007" data-amount="4462900000000"></div>
+<div id="year2008" data-amount="6530600000000"></div>
+<div id="year2009" data-amount="3191900000000"></div>
+<div id="year2010" data-amount="5396100000000"></div>
+<div id="year2011" data-amount="8879000000000"></div>
+<div id="year2012" data-amount="8025950000000"></div>
 
 <div id="wrapper" class="infographic" style="margin-top: 150px;">
     
   <div id="profession" class="total">
     <span id="figures" style="display: none;">
-      <span id="tags"> OIL REVENUE</span>
+      <span id="tags">TOTAL OIL REVENUE</span> <span id="totalyear"></span>
       <span> ₦ </span>
       <span id="amt"></span>
     </span>
@@ -23,140 +37,131 @@
       <div class="time-line-time">
         <div id="timeline-line" style="width:800;"></div>
         <div class="time-line-circle" style="width:7.14285714286%">
-          <a class="time-line-href href1" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change1()" id="time_click" data-amount="724400000000">
+          <a class="time-line-href href1" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change1()" id="time_click" data-year="1999">
             <div class="circleLine" style="opacity: 0;"></div>
             <span>1999</span>
           </a>
         </div>
         <div class="time-line-circle" style="width:7.14285714286%">
-          <a class="time-line-href href2" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change2()" id="time_click" data-amount="1591700000000">
+          <a class="time-line-href href2" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change2()" id="time_click" data-year="2000">
             <div class="circleLine" style="opacity: 0;"></div>
             <span>2000</span>
           </a>
         </div>
         <div class="time-line-circle" style="width:7.14285714286%">
-          <a class="time-line-href href3" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change3()" id="time_click" data-amount="1707600000000">
+          <a class="time-line-href href3" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change3()" id="time_click" data-year="2001">
             <div class="circleLine" style="opacity: 0;"></div>
             <span>2001</span>
           </a>
         </div>
         <div class="time-line-circle" style="width:7.14285714286%">
-          <a class="time-line-href href4" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change4()" id="time_click" data-amount="1230900000000">
+          <a class="time-line-href href4" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change4()" id="time_click" data-year="2002">
             <div class="circleLine" style="opacity: 0;"></div>
             <span>2002</span>
           </a>
         </div>
         <div class="time-line-circle" style="width:7.14285714286%">
-          <a class="time-line-href href5" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change5()" id="time_click" data-amount="2074300000000">
+          <a class="time-line-href href5" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change5()" id="time_click" data-year="2003">
             <div class="circleLine" style="opacity: 0;"></div>
             <span>2003</span>
           </a>
         </div>
         <div class="time-line-circle" style="width:7.14285714286%">
-          <a class="time-line-href href6" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change6()" id="time_click" data-amount="3354800000000">
+          <a class="time-line-href href6" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change6()" id="time_click" data-year="2004">
             <div class="circleLine" style="opacity: 0;"></div>
             <span>2004</span>
           </a>
         </div>
-          <div class="time-line-circle" style="width:7.14285714286%">
-            <a class="time-line-href href7" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change7()" id="time_click" data-amount="4762400000000">
-              <div class="circleLine" style="opacity: 0;"></div>
-              <span>2005</span>
-            </a>
-          </div>
-          <div class="time-line-circle" style="width:7.14285714286%">
-            <a class="time-line-href href8" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change8()" id="time_click" data-amount="5287600000000">
-              <div class="circleLine" style="opacity: 0;"></div>
-              <span>2006</span></a>
-            </div>
-            <div class="time-line-circle" style="width:7.14285714286%">
-              <a class="time-line-href href9" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change9()" id="time_click" data-amount="4462900000000">
-                <div class="circleLine" style="opacity: 0;"></div>
-                <span>2007</span>
-              </a>
-            </div>
-            <div class="time-line-circle" style="width:7.14285714286%">
-              <a class="time-line-href href10" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change10()" id="time_click" data-amount="6530600000000">
-                <div class="circleLine" style="opacity: 0;"></div>
-                <span>2008</span>
-              </a>
-            </div>
-            <div class="time-line-circle" style="width:7.14285714286%">
-              <a class="time-line-href href11" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change11()" id="time_click" data-amount="3191900000000">
-                <div class="circleLine" style="opacity: 0;"></div>
-                <span>2009</span></a>
-              </div>
-              <div class="time-line-circle" style="width:7.14285714286%">
-                <a class="time-line-href href12" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change12()" id="time_click" data-amount="5396100000000">
-                  <div class="circleLine" style="opacity: 0;"></div>
-                  <span>2010</span>
-                </a>
-              </div>
-              <div class="time-line-circle" style="width:7.14285714286%">
-                <a class="time-line-href href13" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change13()" id="time_click" data-amount="8879000000000">
-                  <div class="circleLine" style="opacity: 0;"></div>
-                  <span>2011</span>
-                </a>
-              </div>
-              <div class="time-line-circle" style="width:7.14285714286%">
-                <a class="time-line-href href14" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change14()" id="time_click" data-amount="8025950000000">
-                  <div class="circleLine" style="opacity: 0;"></div>
-                  <span>2012</span>
-                </a>
-              </div>
-            </div>
-            <div style="width:800; height:400;margin-top:50px; font-size: 0;">
-              <div class="timeline-circles timeline-circle1change1" id="timeline-circid1" style="display: none;" title="Primary Health Clinics_1999">
-                <span id="textcircid1" onclick="ptext();" class="timeline-textformat textincircle1and1">Primary Health Clinics</span>
-              </div>
-              <div class="timeline-circles timeline-circle2change1" id="timeline-circid2" style="display: none;" title="Classrooms_1999">
-                <span id="textcircid2" onclick="ptext();" class="timeline-textformat textincircle2and1">Classrooms</span>
-              </div>
-              <div class="timeline-circles timeline-circle3change1" id="timeline-circid3" style="display: none;" title="Police Stations_1999">
-                <span id="textcircid3" onclick="ptext();" class="timeline-textformat textincircle3and1">Police Stations</span>
-              </div><div class="timeline-circles timeline-circle4change1" id="timeline-circid4" style="display: none;" title="Fertilizer_1999">
-              <span id="textcircid4" onclick="ptext();" class="timeline-textformat textincircle4and1">Fertilizer</span>
-            </div>
-            <div class="timeline-circles timeline-circle5change1" id="timeline-circid5" style="display: none;" title="Solar Powered Borehole_1999">
-              <span id="textcircid5" onclick="ptext();" class="timeline-textformat textincircle5and1">Solar Powered Borehole</span>
-            </div>
-            <div class="timeline-circles timeline-circle6change1" id="timeline-circid6" style="display: none;" title="Vocational Centers_1999">
-              <span id="textcircid6" onclick="ptext();" class="timeline-textformat textincircle6and1">Vocational Centers</span>
-            </div>
-          </div>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href7" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change7()" id="time_click" data-year="2005">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2005</span>
+          </a>
         </div>
-        <div id="timeline-outputtext" style="top: 0px; display: none;">
-          <span></span>
-          <h1></h1>
-          <p></p>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href8" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change8()" id="time_click" data-year="2006">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2006</span></a>
+          </div>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href9" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change9()" id="time_click" data-year="2007">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2007</span>
+          </a>
         </div>
-
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href10" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change10()" id="time_click" data-year="2008">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2008</span>
+          </a>
+        </div>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href11" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change11()" id="time_click" data-year="2009">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2009</span>
+          </a>
+        </div>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href12" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change12()" id="time_click" data-year="2010">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2010</span>
+          </a>
+        </div>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href13" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change13()" id="time_click" data-year="2011">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2011</span>
+          </a>
+        </div>
+        <div class="time-line-circle" style="width:7.14285714286%">
+          <a class="time-line-href href14" href="http://www.yourbudgit.com/webroot/obi/atare/infographics/#" onclick="change14()" id="time_click" data-year="2012">
+            <div class="circleLine" style="opacity: 0;"></div>
+            <span>2012</span>
+          </a>
+        </div>
+      </div>
+      <div style="width:800; height:400;margin-top: 20px; font-size: 0;">
+        <div class="timeline-circles timeline-circle1change1" id="timeline-circid1" style="display: none;" title="Primary Health Clinics_1999">
+          <span id="textcircid1" onclick="ptext();" class="timeline-textformat textincircle1and1">Primary Health Clinics</span>
+        </div>
+        <div class="timeline-circles timeline-circle2change1" id="timeline-circid2" style="display: none;" title="Classrooms_1999">
+          <span id="textcircid2" onclick="ptext();" class="timeline-textformat textincircle2and1">Classrooms</span>
+        </div>
+        <div class="timeline-circles timeline-circle3change1" id="timeline-circid3" style="display: none;" title="Police Stations_1999">
+          <span id="textcircid3" onclick="ptext();" class="timeline-textformat textincircle3and1">Police Stations</span>
+        </div><div class="timeline-circles timeline-circle4change1" id="timeline-circid4" style="display: none;" title="Fertilizer_1999">
+        <span id="textcircid4" onclick="ptext();" class="timeline-textformat textincircle4and1">Fertilizer</span>
+      </div>
+      <div class="timeline-circles timeline-circle5change1" id="timeline-circid5" style="display: none;" title="Solar Powered Borehole_1999">
+        <span id="textcircid5" onclick="ptext();" class="timeline-textformat textincircle5and1">Solar Powered Borehole</span>
+      </div>
+      <div class="timeline-circles timeline-circle6change1" id="timeline-circid6" style="display: none;" title="Vocational Centers_1999">
+        <span id="textcircid6" onclick="ptext();" class="timeline-textformat textincircle6and1">Vocational Centers</span>
+      </div>
+    </div>
+  </div>
+  <div id="timeline-outputtext" style="top: 0px; display: none;">
+    <span></span>
+    <h1></h1>
+    <p></p>
+  </div>
 </div>
 
 <script>
   window.onload = change1;
   $(document).ready(function(){
-    var amt;
+    
     $('.timeline-circles').hide();
     function replaceAll(find, replace, str) {
         return str.replace(new RegExp(find, 'g'), replace);
     }
-    $('body').css('overflow-x','hidden');
+    //$('body').css('overflow-x','hidden');
     var con = $('.timeline-container');
     //$('#figures').hide();
     var position = con.position();
     $('#timeline-outputtext').css({'top':'0'}).hide();
     //$('.circleLine').css('opacity','0');
-    $('.time-line-href').on('click', function(e){
-      $('.timeline-circles').show(500);
-      e.preventDefault();
-      $('.circleLine').css('opacity','0');
-      $(this).find('div').css('opacity','1');
-      var amount=$(this).data('amount');
-      amt=amount;
-      $('#figures').show(200);
-      $('#amt').animateNumbers(parseInt(amount), true, 1500);
-    });
+    
     $('.timeline-circles').bind('click',function(){
       var that=$(this);
       var loading=$('<div id=loading-cont>Loading...</div>');
@@ -164,7 +169,7 @@
         $('#header').append(loading);
         $('#header').addClass('loading');
       }
-      amount=amt;
+      
       var info_yrs=that.attr('title');  
       var info_yrs_arr=info_yrs.split('_');
       var yrs=info_yrs_arr[1];
@@ -178,6 +183,7 @@
       $('#comment_form_area').focus(function(){
           $(this).animate({height:'90px'},{width:'300px'});
       });
+      
       $('#submit-button').click(function(e){
         var submitted;
         var errs=true;
@@ -193,6 +199,7 @@
             $(this).css('border-color','#005500');
           });
         });
+        
         if(errs){
           var name=$('#comment_form').find('#name').val();
           var email=$('#comment_form').find('#email').val();
@@ -219,9 +226,11 @@
         }
         
       });
-        var varss=that.find('span');
-        var info= info_yrs_arr[0];
-        var newInfo=info.toLowerCase().replace(new RegExp(' ', 'g'), '_');
+
+      var varss=that.find('span');
+      var info= info_yrs_arr[0];
+      var newInfo=info.toLowerCase().replace(new RegExp(' ', 'g'), '_');
+
       $.get('http://www.yourbudgit.com/webroot/obi/atare/infographics/request.php?year='+yrs+'&table='+newInfo, function(data,status,xhr){
         $('#loading-cont').remove();
         $('#header').removeClass('loading');
@@ -253,10 +262,7 @@
           var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon11.png>');
           $('#info_gra').html(insertData).hide().show('slow');
         }
-        
       });
-        
-      
     });
   });
 

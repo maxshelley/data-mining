@@ -35,7 +35,7 @@
 .item-totals {
 
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: left;
 
   .total-title {
@@ -53,18 +53,13 @@
 .feedback-form {
 
   //display: none;
+  text-align: center;
 
-  section,label {
-    display: inline-block;
-    width: 100%;
-  }
-
-  label {
-    margin-bottom: 5px;
-  }
-
-  input {
-    margin-bottom: 10px;
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: left;
   }
 
 }
