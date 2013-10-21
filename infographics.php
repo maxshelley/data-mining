@@ -1492,8 +1492,7 @@
 
   </script>
       
-    
-          </div>
+</div>
     
           <div id="info_comment" class="info-comment" style="display: none">
             <div id="info_gra" class="info-gra">
@@ -1543,6 +1542,12 @@
         </div>
       </div>
     </div>
+
+
+    <div style="outline: red 1px solid; height: 30px; width: 100%; display: block;">
+      test
+    </div>
+
   </body>
 </html>
 <?php // include('footer.php'); ?>

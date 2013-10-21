@@ -6,7 +6,7 @@
     <nav>
       <ul>
         <li>
-          <!--sdsd-->
+          <a href="https://docs.google.com/spreadsheet/ccc?key=0Am--MqhHp69hdHpxZGtsWms4WjJoRmJYaTdxbXViR3c#gid=0" target="_blank">Download Data</a>
         </li>
       </ul>
     </nav>

@@ -488,6 +488,22 @@ table {
 a {
   text-decoration: none; }
 
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("../webfonts/BebasNeue-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.infographic .total {
+  font-family: "BebasNeue", helvetica, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 1em; }
+
 .btn {
   display: inline-block;
   text-align: center;
@@ -557,6 +573,39 @@ header.primary-header {
   -moz-transition: height 0.3s, background-color 0.3s;
   -o-transition: height 0.3s, background-color 0.3s;
   transition: height 0.3s, background-color 0.3s; }
+  header.primary-header nav {
+    float: right;
+    margin-top: 37px; }
+    header.primary-header nav ul {
+      list-style-image: none;
+      list-style-type: none; }
+      header.primary-header nav ul li {
+        float: left;
+        margin-right: 30px; }
+        header.primary-header nav ul li a {
+          color: rgba(255, 255, 255, 0);
+          text-shadow: #fff 0px 0px 0px;
+          -webkit-transition: text-shadow .25s ease-in-out;
+          -moz-transition: text-shadow .25s ease-in-out;
+          -ms-transition: text-shadow .25s ease-in-out;
+          -o-transition: text-shadow .25s ease-in-out;
+          transition: text-shadow .25s ease-in-out;
+          text-decoration: none;
+          font-size: 12px;
+          display: block;
+          padding-top: 8px;
+          font-weight: bold;
+          margin-top: 2px;
+          text-transform: uppercase;
+          font-family: "HelveticaNeueW02-45Ligh", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+          header.primary-header nav ul li a:hover {
+            text-shadow: #999 0 0 3px;
+            -webkit-transition: text-shadow .30s ease-in-out;
+            -moz-transition: text-shadow .30s ease-in-out;
+            -ms-transition: text-shadow .30s ease-in-out;
+            -o-transition: text-shadow .30s ease-in-out;
+            transition: text-shadow .30s ease-in-out;
+            color: transparent; }
   header.primary-header .logo {
     width: 142px;
     margin-top: 40px;
@@ -568,6 +617,10 @@ header.primary-header {
     -moz-transition: height 0.3s, background-color 0.3s;
     -o-transition: height 0.3s, background-color 0.3s;
     transition: height 0.3s, background-color 0.3s; }
+    header.primary-header.affix .logo {
+      margin-top: 20px; }
+    header.primary-header.affix nav {
+      margin-top: 5px; }
 
 footer.primary-footer {
   text-align: center;
@@ -992,41 +1045,3 @@ textarea {
   background-image: -ms-linear-gradient(bottom, #076faf 100%, #076faf 0);
   background-image: -o-linear-gradient(bottom, #076faf 100%, #076faf 0);
   background-image: linear-gradient(bottom, #076faf 100%, #076faf 0); }
-
-nav {
-  float: right;
-  margin-top: 37px; }
-
-nav ul {
-  list-style-image: none;
-  list-style-type: none; }
-
-nav ul li {
-  float: left;
-  margin-right: 30px; }
-
-nav ul li a {
-  color: rgba(255, 255, 255, 0);
-  text-shadow: #fff 0px 0px 0px;
-  -webkit-transition: text-shadow .25s ease-in-out;
-  -moz-transition: text-shadow .25s ease-in-out;
-  -ms-transition: text-shadow .25s ease-in-out;
-  -o-transition: text-shadow .25s ease-in-out;
-  transition: text-shadow .25s ease-in-out;
-  text-decoration: none;
-  font-size: 12px;
-  display: block;
-  padding-top: 8px;
-  font-weight: bold;
-  margin-top: 2px;
-  text-transform: uppercase;
-  font-family: "HelveticaNeueW02-45Ligh", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-nav ul li a:hover {
-  text-shadow: #999 0 0 3px;
-  -webkit-transition: text-shadow .30s ease-in-out;
-  -moz-transition: text-shadow .30s ease-in-out;
-  -ms-transition: text-shadow .30s ease-in-out;
-  -o-transition: text-shadow .30s ease-in-out;
-  transition: text-shadow .30s ease-in-out;
-  color: transparent; }
