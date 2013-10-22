@@ -176,38 +176,6 @@
         var info= info_yrs_arr[0];
         var newInfo=info.toLowerCase().replace(new RegExp(' ', 'g'), '_');
 
-        $.get('http://www.yourbudgit.com/webroot/obi/atare/infographics/request.php?year='+yrs+'&table='+newInfo, function(data,status,xhr){
-          $('#loading-cont').remove();
-          $('#header').removeClass('loading');
-          $('#info_comment').jOverlay({center:false,css:{position:'absolute',left:'10%',top:'20px'}});
-          if(info=='Primary Health Clinics'){
-            var infoData=$.parseJSON(data)
-            var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon6.png>');
-            $('#info_gra').html(insertData).hide().show('slow');
-          }
-          if(info=='Classrooms'){
-            var infoData=$.parseJSON(data)
-            var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon8.png>');
-            $('#info_gra').html(insertData).hide().show('slow');
-          }
-          if(info =='Police Stations'){
-            var infoData=$.parseJSON(data)
-            var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon9.png>');
-            $('#info_gra').html(insertData).hide().show('slow');
-          }if(info=='Fertilizer'){
-            var infoData=$.parseJSON(data)
-            var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon7.png>');
-            $('#info_gra').html(insertData).hide().show('slow');
-          }if(info=='Vocational Centers'){
-            var infoData=$.parseJSON(data)
-            var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon10.png>');
-            $('#info_gra').html(insertData).hide().show('slow');
-          }if(info=='Solar Powered Borehole'){
-            var infoData=$.parseJSON(data)
-            var insertData=$('<span class=total-amt>'+amount+'</span><span class=fed-number>'+parseInt(infoData['federal'])+'</span><span class=state-number>'+parseInt(infoData['state'])+'</span><span class=lga-number>'+parseInt(infoData['lga'])+'</span><span class=ward-number>'+parseInt(infoData['ward'])+'</span><img src=hackathon11.png>');
-            $('#info_gra').html(insertData).hide().show('slow');
-          }
-        });
       });
     });
 
@@ -216,9 +184,13 @@
 
   <div class="item-totals container generated-infographic" style="display: none;">
     <div class="total-year"></div>
+    <div class="heading nigeria">Nigeria</div>
     <div class="total-nigeria"></div>
+    <div class="heading state">State</div>
     <div class="total-state"></div>
+    <div class="heading lga">Local Government Area</div>
     <div class="total-lga"></div>
+    <div class="heading lga">Ward</div>
     <div class="total-ward"></div>
   </div>
 

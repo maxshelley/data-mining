@@ -18,6 +18,11 @@
     </canvas>
   </div>
 
+  <p class="what-could-we-do">
+    Now that you've seen the growth in revenue,<br>
+    tell your representative <a href="/infographics.php">where the money should be sent</a>.
+  </p>
+
 </div>
 
 <?php include('footer.php'); ?>
