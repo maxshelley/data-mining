@@ -38,6 +38,10 @@ $(document).ready(function(){
 
     populateInfographic( year , itemcost, amount );
 
+    $('html, body').animate({
+      scrollTop: ( $( $('.generated-infographic') ).offset().top - 350 )
+    }, 800, 'swing');
+
   });
 
   $('.time-line-href').click(function(e) {
@@ -63,6 +67,33 @@ $(document).ready(function(){
     $('.year-instructions').fadeIn('slow');
 
   });
+
+  $("#chart-div").html($("canvas").attr("width", 800).attr("height", 600).attr("id", "chart"));
+    console.log('CHARTFIRED');
+    var c = [];
+    var b = [];
+    $(".data-storage").each(function (e) {
+        b.push($(this).data("amount") / 1000000000);
+        var f = $(this).attr("id");
+        c.push(f.replace("year", ""))
+    });
+    var d = {
+        labels: c,
+        datasets: [{
+            fillColor: "rgba(79,107,181,0.5)",
+            strokeColor: "rgba(57,77,133,1)",
+            pointColor: "rgba(43,60,105,1)",
+            pointStrokeColor: "#fff",
+            data: b
+        }]
+    };
+    var a = $("#chart").get(0).getContext("2d");
+    $("#chart").fadeOut(50, function () {
+        $("#chart").fadeIn();
+        new Chart(a).Line(d, {
+            showTooltips: true
+        })
+    })
 
 });
 

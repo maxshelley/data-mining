@@ -7,13 +7,24 @@
 }
 
 .parsley-error {
-  color: red;
+  color: $brandRed;
+  border: 1px solid $brandRed !important;
 }
 
 ul.parsley-error-list {
+ color: $brandRed;
+ margin: 0px auto;
+ padding: 0;
+ 
+ li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding-left: 0;
+  margin-left: 0;
+ }
 
 }
 
 li.parsley-error {
-
+  color: $brandRed;
 }

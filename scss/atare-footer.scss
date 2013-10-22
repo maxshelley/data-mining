@@ -1,6 +1,49 @@
 footer.primary-footer {
   
-  text-align: center;
-  margin-top: 40px;
+  hr {
+    width: 55%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 1px;
+    background-color: rgba(0,0,0,0.05);
+    border: 0;
+    margin-bottom: 40px;
+  }
 
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  .footer-logos {
+    
+    font-size: 0; // Webkit whitespace fix.
+    margin-bottom: 30px;
+
+    li {
+
+      display: inline-block;
+
+      margin-left: 25px;
+      vertical-align: middle;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      img {
+        max-height: 45px;
+        vertical-align: middle;
+      }
+
+    }
+  }
+
+  .what-is-atare {
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.2em;
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+  }
 }

@@ -4,11 +4,19 @@
 
   .main-title {
 
+    font-family: $titleFontFamily;
     font-size: 40px;
     line-height: 1em;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-weight: bold;
 
+  }
+
+  .main-subtitle {
+    font-family: $titleFontFamily;
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 1.2em;
   }
 
 }

@@ -1,35 +1,21 @@
 <?php include('head.php'); ?>
 <?php include('header.php'); ?>
 
-<!--
-  Using DOM elements as a storage location.
-  Yeah, not ideal, but this will do for now.
--->
+<?php include('data.php'); ?>
 
-<div id="year1999" data-amount="724400000000"></div>
-<div id="year2000" data-amount="1591700000000"></div>
-<div id="year2001" data-amount="1707600000000"></div>
-<div id="year2002" data-amount="1230900000000"></div>
-<div id="year2003" data-amount="2074300000000"></div>
-<div id="year2004" data-amount="3354800000000"></div>
-<div id="year2005" data-amount="4762400000000"></div>
-<div id="year2006" data-amount="5287600000000"></div>
-<div id="year2007" data-amount="4462900000000"></div>
-<div id="year2008" data-amount="6530600000000"></div>
-<div id="year2009" data-amount="3191900000000"></div>
-<div id="year2010" data-amount="5396100000000"></div>
-<div id="year2011" data-amount="8879000000000"></div>
-<div id="year2012" data-amount="8025950000000"></div>
-
-<div class="header-bg" style="height: 130px; background-color: rgba(0,0,0,0.7);">
+<div class="header-bg" style="height: 130px; ">
 </div>
 <div id="wrapper" class="infographic" >
     
   <div id="profession" class="total">
     <span id="figures" style="display: none;">
-      <span id="tags">TOTAL OIL REVENUE</span> <span id="totalyear"></span>
-      <span> ₦ </span>
-      <span id="amt"></span>
+      <div>
+        <span id="tags">TOTAL OIL REVENUE</span> <span id="totalyear"></span>
+      </div>
+      <div>
+        <span> ₦ </span>
+        <span id="amt"></span>
+      </div>
     </span>
     <div style="clear:right"></div>
   </div>
@@ -368,6 +354,4 @@
 
   </div>
 
-  </body>
-</html>
 <?php include('footer.php'); ?>

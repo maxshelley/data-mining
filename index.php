@@ -20,7 +20,11 @@
     <div class="main-title">
       14 Years Of Democracy
     </div>
-    <img src="images/direction.jpg" class="step-by-step" /> 
+    <div class="main-subtitle">
+      See what could be done with the oil revenue that Nigeria generates every year.<br>Then tell your representatives how it should be spent.
+    </div>
+
+    <img src="images/step-by-step.jpg" class="step-by-step" /> 
     <div>
       <a class="btn btn-large btn-primary" href="infographics.php">
         Click to Start

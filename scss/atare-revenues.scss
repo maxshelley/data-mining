@@ -1,0 +1,25 @@
+.revenue {
+  text-align: center;
+
+  h1 {
+    font-family: $titleFontFamily;
+    font-size: 36px;
+    line-height: 1.2em;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    font-family: $titleFontFamily;
+  }
+
+  #chart {
+    margin-left: auto;
+    margin-right: auto;
+    &:before {
+      content: ('1 Billion Naira');
+      display: inline-block;
+      color: red;
+      font-size: 12px;
+    }
+  }
+}
