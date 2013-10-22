@@ -35,7 +35,9 @@
   .this-many {
     font-family: $titleFontFamily;
   }
-  
+
+
+
 }
 
 .generated-infographic {
@@ -148,6 +150,17 @@
 
   .data-attribution {
     font-size: 12px;
+    margin-bottom: 40px;
+  }
+
+  .visualise-this {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 1em;
+    font-family: $titleFontFamily;
   }
 
 }
