@@ -69,7 +69,7 @@ $(document).ready(function(){
   });
 
   $("#chart-div").html($("canvas").attr("width", 800).attr("height", 600).attr("id", "chart"));
-    console.log('CHARTFIRED');
+    
     var c = [];
     var b = [];
     $(".data-storage").each(function (e) {

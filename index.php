@@ -1,8 +1,6 @@
 <?php include('head.php'); ?>
 <?php include('header.php'); ?>
 
-
-
   <div class="impact" data-speed="9" data-type="background" style="background-position: 50% 0px;">
     <div class="container">
       <div class="introduction">

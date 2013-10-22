@@ -3,7 +3,7 @@
   
 <?php include('data.php'); ?>
 
-<div class="header-bg" style="height: 180px; ">
+<div class="header-bg" style="height: 180px;">
 </div>  
 <div class="container revenue">
   <h1>
