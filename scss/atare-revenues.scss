@@ -15,6 +15,7 @@
   #chart {
     margin-left: auto;
     margin-right: auto;
+    position: relative;
     &:before {
       content: ('1 Billion Naira');
       display: inline-block;
@@ -22,4 +23,11 @@
       font-size: 12px;
     }
   }
+  
+  .chart-container {
+    
+    position: relative;
+
+  }
+
 }

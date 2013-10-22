@@ -13,10 +13,11 @@
     All Naira totals are in billions. Yes. Billions.<br>
     In 2011, revenues reached ₦8870 Billion (₦8.8 Trillion, roughly &pound;34bn)
   </p>
-  <canvas id="chart"></canvas>
-  <div class="key-revenue">
-    1
+  <div class="chart-container">
+    <canvas id="chart">
+    </canvas>
   </div>
+
 </div>
 
 <?php include('footer.php'); ?>
