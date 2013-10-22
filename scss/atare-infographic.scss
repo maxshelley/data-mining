@@ -27,8 +27,17 @@
 
 }
 
-.generated-infographic {
+.infographic-container {
+  text-align: center;
   display: none;
+  margin-top: 60px;
+
+  .this-many {
+    font-family: $titleFontFamily;
+  }
+}
+
+.generated-infographic {
   text-align: center;
   background-image: url(../images/infographic-bg.png);
   height: 717px;
@@ -42,7 +51,8 @@
   text-align: right;
   margin-left: auto;
   margin-right: auto;
-
+  display: inline-block;
+  
   div {
     display: block;
     width: 100%;

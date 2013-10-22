@@ -28,7 +28,7 @@ $(document).ready(function(){
 
   $( ".timeline-circles" ).click(function() { // Click on a bubble on the chart.
 
-    $('.generated-infographic').show(); // Show the infographic container.
+    $('.infographic-container').show(); // Show the infographic container.
     $('.feedback-form').show(); // Show the infographic container.
 
 
@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     $('html, body').animate({
       scrollTop: ( $( $('.generated-infographic') ).offset().top - 350 )
-    }, 800, 'swing');
+    }, 600, 'swing');
 
   });
 

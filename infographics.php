@@ -142,7 +142,7 @@
       
       $('.timeline-circles').hide();
       function replaceAll(find, replace, str) {
-          return str.replace(new RegExp(find, 'g'), replace);
+        return str.replace(new RegExp(find, 'g'), replace);
       }
        
       var con = $('.timeline-container');
@@ -181,16 +181,21 @@
 
   </script>
 
-  <div class="item-totals container generated-infographic" style="display: none;">
-    <div class="total-year"></div>
-    <div class="heading nigeria">Nigeria</div>
-    <div class="total-nigeria"></div>
-    <div class="heading state">State</div>
-    <div class="total-state"></div>
-    <div class="heading lga">Local Government Area</div>
-    <div class="total-lga"></div>
-    <div class="heading ward">Ward</div>
-    <div class="total-ward"></div>
+  <div class="container infographic-container" style="display: none;">
+    <h3 class="this-many">
+      Oil revenues could buy this many:
+    </h3>
+    <div class="generated-infographic">
+      <div class="total-year"></div>
+      <div class="heading nigeria">Nigeria</div>
+      <div class="total-nigeria"></div>
+      <div class="heading state">State</div>
+      <div class="total-state"></div>
+      <div class="heading lga">Local Government Area</div>
+      <div class="total-lga"></div>
+      <div class="heading ward">Ward</div>
+      <div class="total-ward"></div>
+    </div>
   </div>
 
   <div class="feedback-form container">
