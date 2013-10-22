@@ -181,7 +181,6 @@
 
   </script>
 
-
   <div class="item-totals container generated-infographic" style="display: none;">
     <div class="total-year"></div>
     <div class="heading nigeria">Nigeria</div>
