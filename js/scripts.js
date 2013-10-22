@@ -17,7 +17,7 @@ function populateInfographic(year, cost, amount) {
   $('.total-year').html( Math.floor( amount ) );
   $('.total-nigeria').html( countryTotal );
   $('.total-state').html( stateTotal );
-  $('.total-lga').html( stateTotal );
+  $('.total-lga').html( lgaTotal );
   $('.total-ward').html( wardTotal );
 
   $('.item-totals').fadeIn();
