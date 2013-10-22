@@ -61,6 +61,16 @@
     width: auto;
     margin-left: 40px;
     margin-top: 7px;
+
+    &.state {
+      margin-top: 0;
+    }
+
+    &.lga {
+      font-size: 23px;
+      margin-top: 14px;
+    }
+
   }
 
   .total-year {

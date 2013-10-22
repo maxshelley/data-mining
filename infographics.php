@@ -189,7 +189,7 @@
     <div class="total-state"></div>
     <div class="heading lga">Local Government Area</div>
     <div class="total-lga"></div>
-    <div class="heading lga">Ward</div>
+    <div class="heading ward">Ward</div>
     <div class="total-ward"></div>
   </div>
 
