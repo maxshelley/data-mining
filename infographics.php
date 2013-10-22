@@ -340,7 +340,7 @@
     </table>
 
     <p class="data-attribution">
-      Data sourced from the 2013 budget documents at <a href="http://budgetoffice.gov.ng/" target="_blank">budgetoffice.gov.ng</a>
+      'What things cost' data sourced from the 2013 budget documents at <a href="http://budgetoffice.gov.ng/" target="_blank">budgetoffice.gov.ng</a>
     </p>
 
   </div>
