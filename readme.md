@@ -13,4 +13,4 @@ The contact form is not wired up to anything (we didn't have anywhere to send it
 
 Not sure who owns the AddThis account in here.
 
-If you need to contact anyone regarding the data in the hack, you're best bet is to speak to the lovely people at [Rewired State](http://rewiredstate.org/).
+If you need to contact anyone regarding the data in the hack, your best bet is to speak to the lovely people at [Rewired State](http://rewiredstate.org/).
