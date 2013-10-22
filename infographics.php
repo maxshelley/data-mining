@@ -265,6 +265,20 @@
               <button name="submit" id="submit-button" class="btn btn-primary">Send Your Feedback</button>
             </section>
           </form>
+          <!-- AddThis Button BEGIN -->
+          <div class="share-feedback">
+            <p>
+              Let your representative know your thoughts,<br>
+              then tell your friends that they can do it too by sharing this page.
+            </p>
+            <div class="addthis_toolbox addthis_default_style ">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            </div>
+            <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51921a6b303f7a63"></script>
+          </div>
+          <!-- AddThis Button END -->
         </div>
       </div>
     </div>
@@ -312,7 +326,6 @@
         </td>
       </tr>
 
-
       <tr>
         <td class="total-title">
           Buying Fertilizer
@@ -337,8 +350,6 @@
         </td>
       </tr>
     
-
-
       <tr>
         <td class="total-title">
           Running a Vocational Centre
@@ -351,6 +362,10 @@
         </td>
       </tr>
     </table>
+
+    <p class="data-attribution">
+      Data sourced from the 2013 budget documents at <a href="http://budgetoffice.gov.ng/" target="_blank">budgetoffice.gov.ng</a>
+    </p>
 
   </div>
 

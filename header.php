@@ -14,7 +14,7 @@
           <a href="/revenue.php">Visualise Revenues</a>
         </li>
         <li>
-          <a href="" target="_blank">Download Data</a>
+          <a href="/downloaddata.php">Download Data</a>
         </li>
       </ul>
     </nav>
