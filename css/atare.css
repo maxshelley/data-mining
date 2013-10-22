@@ -505,37 +505,87 @@ a {
   line-height: 1em; }
 .infographic .year-instructions {
   text-align: center;
-  width: 100%;
-  font-size: 18px;
+  width: 100%; }
+.infographic .instruction {
+  color: #669999;
+  font-size: 32px;
   line-height: 1.1em;
-  font-style: italic; }
+  font-family: 'Montserrat'; }
 
 .generated-infographic {
   display: none;
   text-align: center;
   background-image: url(../images/infographic-bg.png);
   height: 717px;
+  width: 670px;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 52px;
+  line-height: 1em;
+  font-family: "BebasNeue", helvetica, sans-serif;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto; }
+  .generated-infographic div {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 30px; }
+  .generated-infographic .total-year {
+    margin-top: 26px;
+    margin-bottom: 105px;
+    font-size: 36px; }
+    .generated-infographic .total-year:before {
+      content: "₦"; }
+  .generated-infographic .total-nigeria {
+    margin-bottom: 100px; }
+  .generated-infographic .total-state {
+    margin-bottom: 100px; }
+  .generated-infographic .total-lga {
+    margin-bottom: 80px; }
 
 .item-totals {
+  display: none;
   margin-bottom: 40px;
   margin-top: 80px;
-  text-align: left; }
+  text-align: center; }
+  .item-totals .item-table {
+    margin-left: auto;
+    margin-right: auto; }
+    .item-totals .item-table tr:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.05); }
+    .item-totals .item-table td {
+      text-align: left;
+      background-color: transparent;
+      padding: 15px; }
   .item-totals .total-title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.1em; }
+    font-weight: 600; }
   .item-totals .item {
     margin-bottom: 40px; }
 
 .feedback-form {
+  display: none;
   text-align: center; }
+  .feedback-form .form-caption {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-top: 40px;
+    font-style: italic; }
   .feedback-form form {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     text-align: left; }
+  .feedback-form .contact-select {
+    margin-bottom: 20px; }
+  .feedback-form .btn {
+    width: 100%;
+    padding: 15px; }
 
 .btn {
   display: inline-block;
@@ -658,6 +708,9 @@ header.primary-header {
 footer.primary-footer {
   text-align: center;
   margin-top: 40px; }
+
+.parsley-error {
+  color: red; }
 
 .discover {
   text-align: center; }

@@ -16,9 +16,13 @@
   .year-instructions {
     text-align: center;
     width: 100%;
-    font-size: 18px;
+  }
+
+  .instruction {
+    color: #669999;
+    font-size: 32px;
     line-height: 1.1em;
-    font-style: italic;
+    font-family: 'Montserrat';
   }
 
 }
@@ -28,20 +32,80 @@
   text-align: center;
   background-image: url(../images/infographic-bg.png);
   height: 717px;
+  width: 670px;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
+  font-size: 52px;
+  line-height: 1em;
+  font-family: $dataFontFamily;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+
+  div {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+  }
+
+  .total-year {
+    margin-top: 26px;
+    margin-bottom: 105px;
+    font-size: 36px;
+    &:before {
+      content: ('₦');
+    }
+  }
+
+  .total-nigeria {
+    margin-bottom: 100px;
+  }
+
+  .total-state {
+    margin-bottom: 100px;
+  }
+
+  .total-lga {
+    margin-bottom: 80px;
+  }
+
 }
 
 .item-totals {
 
+  display: none;
   margin-bottom: 40px;
   margin-top: 80px;
-  text-align: left;
+  text-align: center;
+
+  .item-table {
+    margin-left: auto;
+    margin-right: auto;
+
+    tr {
+      &:nth-child(odd) {
+        background-color: rgba(0,0,0,0.05);
+      }
+    }
+
+    td {
+      text-align: left;
+      background-color: transparent;
+      padding: 15px;
+    }
+  }
 
   .total-title {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 1.1em;
+    //font-size: 24px;
+    //line-height: 1.1em;
+  }
+  .total-title,
+  .total-gbp,
+  .total-naira {
+    //display: inline-block;
   }
 
   .item {
@@ -52,8 +116,19 @@
 
 .feedback-form {
 
-  //display: none;
+  display: none;
   text-align: center;
+
+  .form-caption {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-top: 40px;
+    font-style: italic;
+  }
 
   form {
     margin-left: auto;
@@ -62,4 +137,12 @@
     text-align: left;
   }
 
+  .contact-select {
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 15px;
+  }
 }
